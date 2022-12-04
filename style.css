@@ -1,0 +1,107 @@
+html{
+  box-sizing: border-box;
+  font-family: 'Karla';
+  font-size: 16px;
+  font-weight: 400;
+}
+h3,h4,p {
+  margin:0;
+}
+*,*:before,*:after {
+  box-sizing: inherit;
+}
+body{
+  padding: 15px;
+}
+#card{
+  width: 600px;
+  height: 400px;
+  box-shadow: 1px 0px 21px 0px rgba(0,0,0,0.35);
+  border-radius: 5px;
+  overflow: hidden;
+}
+#box-upper{
+  width: 100%;
+  height: 45%;
+  padding: 30px;
+}
+#box-lower {
+  width: 100%;
+  height: 55%;
+  color: #e5eff5;
+}
+#box-left-lower {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #2ab2b0;
+  padding: 30px;
+}
+#box-right-lower {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: top;
+  background-color: #1ec7c1;
+  padding: 30px;
+}
+
+#box-upper h3 {
+  color: #2ab2b0;
+  margin-bottom: 20px;
+}
+#box-upper h4 {
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+#box-upper p {
+  color: #98a6bd;
+  margin-bottom: 15px;
+}
+
+#box-left-lower p {
+  margin-bottom: 25px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+#box-left-lower h4 {
+  margin-bottom: 20px;
+}
+
+button {
+  color: white;
+  background-color: #c0df34;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  width: 100%;
+  box-shadow: 1px 0px 21px 0px rgba(0,0,0,0.2);
+}
+button:hover {
+  cursor: pointer;
+  background-color: #A9C42D;
+}
+#price {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.7rem;
+}
+#text {
+  display: inline-block;
+  color: #e5eff5;
+  position: relative;
+  bottom:  3px;
+  font-size: 0.8rem;
+  margin-left: 5px;
+  opacity: 0.65;
+}
+#price-container {
+  margin-bottom: 5px;
+}
+ul {
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+  opacity: 0.75;
+}
